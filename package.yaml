@@ -13,6 +13,15 @@ extra-source-files:
 
 dependencies:
   - base >= 4.7 && < 5
+  - esqueleto
+  - persistent
+  - persistent-template
+  - persistent-sqlite
+  - monad-logger
+  - fast-logger
+  - string-class
+  - transformers
+  - resourcet
 
 executables:
   nologesqueleto:
